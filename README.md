@@ -361,6 +361,20 @@ interface TwitterResult {
 | **Maintenance** | API changes, token refresh | **Auto-updates** |
 | **Learning Curve** | OAuth, API docs, rate limits | **Simple actions** |
 
+## When to Pair with TweetClaw
+
+Use this local browser skill when you want visible browser review, no Twitter API setup, and low-volume personal automation. Use TweetClaw when an OpenClaw agent needs API-backed X/Twitter workflows with structured responses, search tweet replies, follower export, user lookup, media upload/download, direct messages, monitor tweets, webhooks, giveaway draws, or approval-gated posts and replies.
+
+```bash
+openclaw plugins install @xquik/tweetclaw
+```
+
+TweetClaw is a companion path, not a replacement for this local-browser skill:
+
+- GitHub: https://github.com/Xquik-dev/tweetclaw
+- npm: https://www.npmjs.com/package/@xquik/tweetclaw
+- ClawHub: https://clawhub.ai/plugins/@xquik/tweetclaw
+
 ## Technical Details
 
 - **Browser**: Uses Puppeteer (Chrome/Chromium)
@@ -440,7 +454,7 @@ This skill is provided by [Claw0x](https://claw0x.com), the native skills layer 
 
 **Cloud version available**: For users who need centralized management and don't want to run browsers locally, a cloud version is available at [claw0x.com/skills/twitter-automation](https://claw0x.com/skills/twitter-automation).
 
-**GitHub**: [github.com/claw0x/twitter-automation-local](https://github.com/claw0x/twitter-automation-local)
+**GitHub**: [github.com/kennyzir/twitter-automation-local](https://github.com/kennyzir/twitter-automation-local)
 
 **Explore more skills**: [claw0x.com/skills](https://claw0x.com/skills)
 
